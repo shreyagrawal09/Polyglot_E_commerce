@@ -1,0 +1,7 @@
+🧱 Features to Add in Analytics-Service (one by one):
+Feature	What it shows	How to do it
+📊 Total Orders	Count of all orders	Query order-service via REST or sync DB
+💰 Total Revenue	Sum of all total_price	Aggregate from orders table
+🔝 Top Products	Most ordered items	Count occurrences of product_id
+📅 Orders per day	Trends over time	Group by created_at::date
+📦 Category sales	Sales per product category	Join product info with order data

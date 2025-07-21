@@ -1,0 +1,7 @@
+✅ user-service
+
+Feature			What it does			How it works
+👤 Register User	Adds a new user to the system		POST /api/users/register → Validates + inserts into PostgreSQL
+🔐 Login User		Authenticates user & returns token	POST /api/users/login → Verifies email/password + returns JWT
+🔎 Find User    	Fetch a user by email				GET /api/users/:email → Query by email in DB (if implemented)
+🛢 DB Used			Stores user credentials securely	PostgreSQL (userdb)

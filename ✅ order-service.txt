@@ -1,0 +1,6 @@
+✅ order-service
+Feature				What it does			How it works
+🛒 Place Order				Creates an order with product list	POST /api/orders → Inserts order with JSON products into PostgreSQL
+📬 Get Orders by Email		View orders placed by a user		GET /api/orders/:email → Filters orders by user_email
+🔗 Enrich Products			Adds product details to orders		Fetches full product data from product-service using Axios
+🛢 DB Used					Stores order records				PostgreSQL (orderdb)

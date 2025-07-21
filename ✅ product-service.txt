@@ -1,0 +1,7 @@
+✅ product-service
+Feature			What it does			How it works
+➕ Add Product		Create a new product		POST /api/products → Saves product in MongoDB
+📦 Get All Products		Lists all available products	GET /api/products → Fetches all documents from MongoDB
+🔍 Get Product by ID	Fetch a product’s details		GET /api/products/:id → Finds by _id in MongoDB
+🛢 DB Used				Stores product catalog			MongoDB
+

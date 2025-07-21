@@ -1,7 +1,0 @@
-🧱 Step 2: Setup – Service Ports Recap
-Service	Port
-user-service	5000
-product-service	6969
-order-service	7070
-
-In microservices, services like order-service need to talk to user-service (to verify user) or product-service (to fetch product details) to complete operations. Since they’re separate Node.js apps, they can talk over HTTP just like frontend → backend.

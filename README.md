@@ -2,8 +2,6 @@
 
 A fully functional backend system for an e-commerce platform using microservices architecture with **polyglot persistence** — different databases for different services.
 
-> ✅ Docker is skipped in this version for simplicity.
-
 ---
 
 ## 🚀 Project Overview
@@ -14,13 +12,13 @@ This project is built with **Node.js** and follows microservices architecture. E
 
 ## ✅ Progress Tracker
 
-- [x] User Service (PostgreSQL + JWT Auth)
-- [x] Product Service (MongoDB)
-- [x] Order Service (PostgreSQL + Inter-service communication)
-- [x] Analytics Service (Top products API)
-- [ ] Redis Cache Service (Skipped for now)
-- [ ] Docker Integration
-- [ ] Unit Testing with Jest
+- [✅] User Service (PostgreSQL + JWT Auth)
+- [✅] Product Service (MongoDB)
+- [✅] Order Service (PostgreSQL + Inter-service communication)
+- [✅] Analytics Service (Top products API)
+- [ ] Redis Cache Service (ongoing)
+- [ ] Docker Integration (ongoing)
+- [ ] Unit Testing with Jest (ongoing)
 
 ---
 
@@ -75,7 +73,7 @@ This project is built with **Node.js** and follows microservices architecture. E
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/polyglot-ecomm.git
+   git clone https://github.com/shreyagrawal09/polyglot-ecomm.git
    cd polyglot-ecomm
    ```
 
@@ -120,11 +118,6 @@ Use Postman, Thunder Client, or any REST client:
 
 ---
 
-## 📸 Screenshots
-
-> *(Add Postman response screenshots or UI images if available)*
-
----
 
 ## 🙌 Acknowledgements
 
@@ -140,5 +133,5 @@ This project was built as part of a learning initiative to demonstrate:
 
 Feel free to connect:
 
-**Author:** Shrey Agrawal  
-**GitHub:** [@shreyagrawal](https://github.com/your-username)
+**Author:** Shrey Agrawal
+**GitHub:** [@shreyagrawal09](https://github.com/shreyagrawal09)
